@@ -16,6 +16,11 @@ public class Test1 {
 	  System.out.println("Running the scripts for test1");
 	  System.out.println("Script execution complete for test1");
   }
+  @Test
+  public void SC01Test02() {
+	  System.out.println("Running the scripts for test2");
+	  System.out.println("Script execution complete for test2");
+  }
   @BeforeMethod
   public void beforeMethod() {
 	  System.out.println("Running the code for before method ");
