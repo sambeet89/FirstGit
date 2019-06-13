@@ -13,8 +13,8 @@ import org.testng.annotations.Test;
 public class Test2 {
 	@Test
 	public void SC02Test01() {
-		System.out.println("Running the scripts for test1");
-		System.out.println("Script execution complete for test1");
+		System.out.println("Running the scripts for Sc02test1");
+		System.out.println("Script execution complete for Sc02test1");
 	}
 
 	
