@@ -11,55 +11,64 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
 public class Test1 {
-  @Test
-  public void SC01Test01() {
-	  System.out.println("Running the scripts for test1");
-	  System.out.println("Script execution complete for test1");
-  }
-  @Test
-  public void SC01Test03() {
-	  System.out.println("Running the scripts for test3");
-	  System.out.println("Script execution complete for test3");
-  }
-  @BeforeMethod
-  public void beforeMethod() {
-	  System.out.println("Running the code for before method ");
-  } 
+	@Test
+	public void SC01Test01() {
+		System.out.println("Running the scripts for test1");
+		System.out.println("Script execution complete for test1");
+	}
 
-  @AfterMethod
-  public void afterMethod() {
-	  System.out.println("Running the code for after method");
-	  
-  }
+	@Test
 
-  @BeforeClass
-  public void beforeClass() {
-	  System.out.println("Running the code for before class");
-  }
+	public void SC01Test02() {
+		System.out.println("Running the scripts for test2");
+		System.out.println("Script execution complete for test2");
+	}
 
-  @AfterClass
-  public void afterClass() {
-	  System.out.println("Running the code for after class");
-  }
+	public void SC01Test03() {
+		System.out.println("Running the scripts for test3");
+		System.out.println("Script execution complete for test3");
 
-  @BeforeTest
-  public void beforeTest() {
-	  System.out.println("Running the code for before test");
-  }
+	}
 
-  @AfterTest
-  public void afterTest() {
-	  System.out.println("Running the code for after test");
-  }
+	@BeforeMethod
+	public void beforeMethod() {
+		System.out.println("Running the code for before method ");
+	}
 
-  @BeforeSuite
-  public void beforeSuite() {
-	  System.out.println("Running the code for before suite");
-  }
+	@AfterMethod
+	public void afterMethod() {
+		System.out.println("Running the code for after method");
 
-  @AfterSuite
-  public void afterSuite() {
-	  System.out.println("Running the code for after suite");
-  }
+	}
+
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("Running the code for before class");
+	}
+
+	@AfterClass
+	public void afterClass() {
+		System.out.println("Running the code for after class");
+	}
+
+	@BeforeTest
+	public void beforeTest() {
+		System.out.println("Running the code for before test");
+	}
+
+	@AfterTest
+	public void afterTest() {
+		System.out.println("Running the code for after test");
+	}
+
+	@BeforeSuite
+	public void beforeSuite() {
+		System.out.println("Running the code for before suite");
+	}
+
+	@AfterSuite
+	public void afterSuite() {
+		System.out.println("Running the code for after suite");
+	}
 
 }
