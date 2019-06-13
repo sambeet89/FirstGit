@@ -16,6 +16,10 @@ public class Test1 {
 		System.out.println("Running the scripts for test1");
 		System.out.println("Script execution complete for test1");
 		// dummy code 
+		for (int i = 0; i < 10; i++) {
+			System.out.println(i);
+			
+		}
 	}
 
 	@Test
