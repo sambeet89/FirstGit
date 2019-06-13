@@ -15,6 +15,7 @@ public class Test1 {
 	public void SC01Test01() {
 		System.out.println("Running the scripts for test1");
 		System.out.println("Script execution complete for test1");
+		// dummy code 
 	}
 
 	@Test
